@@ -1,0 +1,5 @@
+{
+  "name": "EstrelaTur Sales System",
+  "description": "A daily sales recording system for EstrelaTur travel agencies, tracking sales by vendor, agency, and bus company.",
+  "requestFramePermissions": []
+}
