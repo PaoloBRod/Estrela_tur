@@ -9,6 +9,7 @@ import { Seller, SaleRecord, AccessType } from './types';
 const App: React.FC = () => {
   const [currentUser, setCurrentUser] = useState<Seller | null>(null);
   const [accessType, setAccessType] = useState<AccessType | null>(null);
+  // Initialize sales state as empty array - No external fetch/data.json loading
   const [sales, setSales] = useState<SaleRecord[]>([]);
 
   const handleLogin = (seller: Seller | null, type: AccessType) => {
