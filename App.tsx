@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; // teste
 import LoginScreen from './components/LoginScreen';
 import SalesForm from './components/SalesForm';
 import SalesDashboard from './components/SalesDashboard';
